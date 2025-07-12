@@ -21,7 +21,7 @@ a {
   padding: 20px 40px;
   background: #fff;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px #000000;
 }
 
 .logo {
@@ -41,6 +41,7 @@ a {
   text-align: center;
   padding: 80px 20px;
   background: #f4f6ff;
+  background-image: url(Assets/Hero-bg.png);
 }
 
 .hero h1 {
@@ -59,6 +60,18 @@ a {
   padding: 60px 20px;
   flex-wrap: wrap;
   background: #ffffff;
+}
+
+.video-preview .text {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.video-preview .image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .text h2 {
@@ -153,7 +166,7 @@ a {
 }
 
 .contact button {
-  background: #4e4eff;
+  background: #4e47ff;
   color: white;
   padding: 12px;
   border: none;
