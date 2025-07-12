@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6ff;
+  color: #000;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #fff;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: bold;
+  color: #4e4eff;
+  font-size: 24px;
+}
+
+.btn {
+  background: #4e4eff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f4f6ff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #4e4eff;
+}
+
+.video-preview {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+
+.text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.btn-small {
+  margin-top: 15px;
+  display: inline-block;
+  background: #4e4eff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.image-box {
+  width: 320px;
+  height: 200px;
+  background: linear-gradient(135deg, #444, #111);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #e0e7ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  color: #4e4eff;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial {
+  width: 300px;
+  background: #f4f6ff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.focus {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.focus .large {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.contact {
+  padding: 60px 20px;
+  background: #f4f6ff;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 16px;
+}
+
+.contact button {
+  background: #4e4eff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
